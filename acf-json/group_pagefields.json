@@ -1,0 +1,34 @@
+{
+    "key": "group_pagefields",
+    "title": "Custom Page Fields",
+    "fields": [
+        {
+            "key": "field_pagebanner",
+            "label": "Page Banner",
+            "name": "page_banner",
+            "prefix": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 1,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}
